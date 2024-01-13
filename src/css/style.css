@@ -167,7 +167,8 @@ img {
   font-family: var(--fuenteHeading);
   color: var(--blanco);
   text-align: center;
-  padding: 1rem 3rem;
+  padding: 5px;
+  border-radius: 10px;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -185,7 +186,12 @@ img {
 }
 
 .boton--primario {
-  background-color: var(--negro);
+  background-color: var(--azulGris);
+}
+
+.boton--primario:hover {
+  background-color: var(--azulOscruro);
+  transition: 0.5s;
 }
 
 .boton--secundario {
